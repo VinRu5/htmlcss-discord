@@ -142,6 +142,17 @@ main section:nth-child(even) {
     background: #eee;
 }
 
+.svg1 {
+    background: #fff;
+    color: #eee;
+}
+
+.svg2 {
+    background: #eee;
+    color: #fff;
+}
+
+
 .container-section {
     text-align: center;
     padding-bottom: 80px;
