@@ -18,3 +18,59 @@ body {
 .fl {
     float: left;
 }
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background: url("../img/jumbo.png") center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 20px;
+}
+
+nav.topbar {
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+}
+
+nav.topbar .logo, nav.topbar .login {
+    width: 25%;
+    height: 100%;
+}
+
+nav.topbar .menu {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+nav.topbar .menu li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav.topbar .menu li:first-child {
+    margin-left: 0;
+}
+
+nav.topbar .login {
+    text-align: right;
+}
+
+.button {
+    color: #333;
+    background-color: #fff;
+    border-radius: 25%;
+    padding: 8px;
+    font-size: 12px;
+}
+
