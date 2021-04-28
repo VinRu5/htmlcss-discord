@@ -163,7 +163,7 @@ footer {
     padding: 80px 0;
 }
 
-footer .container .clearfix {
+footer .container .clearfix:first-child {
     border-bottom: 1px solid #8ea1e1;
 }
 
@@ -173,5 +173,13 @@ footer .container .clearfix {
 
 .footer-list {
     width: 15%;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.footer-login {
+    width: 50%;
 }
 
